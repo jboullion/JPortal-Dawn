@@ -1,0 +1,18 @@
+{
+  "name": "jportal-dawn-shopify",
+  "description": "",
+  "version": "1.0.0",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": " shopify theme dev --store=jportalstore.myshopify.com",
+    "watch:css": "npx tailwindcss -i ./src/tailwind.css -o ./assets/application.css --watch"
+  },
+  "dependencies": {
+   
+  },
+  "devDependencies": {
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,9 +1,26 @@
-# OS generated files #
-######################
+# Shopify theme files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
+node_modules/
+dist/
+*.log
+*.zip
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS generated files
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Tailwind CSS files
+postcss.config.js
+
+# VScode settings folder
+.vscode/
+
+# NPM package-lock
+package-lock.json
+yarn.lock
