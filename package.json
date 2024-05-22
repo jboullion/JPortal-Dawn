@@ -5,8 +5,7 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": " shopify theme dev --store=jportalstore.myshopify.com",
-    "watch:css": "npx tailwindcss -i ./src/tailwind.css -o ./assets/application.css --watch"
+    "watch": " shopify theme dev --store=jportalstore.myshopify.com"
   },
   "dependencies": {
    
